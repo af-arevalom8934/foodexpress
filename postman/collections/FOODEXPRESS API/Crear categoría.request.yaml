@@ -1,0 +1,16 @@
+$kind: http-request
+description: ""
+url: http://localhost:3000/api/categorias
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \  \"nombre\": \"Platos fuertes\",\r
+
+    \  \"descripcion\": \"Platos principales del restaurante\",\r
+
+    \  \"estado\": true\r
+
+    }"
+order: 1789325333149

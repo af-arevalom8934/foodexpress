@@ -1,0 +1,18 @@
+$kind: http-request
+description: ""
+url: http://localhost:3000/api/usuarios
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \  \"usuario\": \"admin\",\r
+
+    \  \"password\": \"admin123\",\r
+
+    \  \"rol\": \"administrador\",\r
+
+    \  \"estado\": true\r
+
+    }"
+order: 3993680290733420

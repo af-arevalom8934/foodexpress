@@ -1,0 +1,20 @@
+$kind: http-request
+description: ""
+url: |-
+  
+  http://localhost:3000/api/productos
+method: POST
+body:
+  type: json
+  content: |-
+    {
+      "codigo": "P002",
+      "nombre": "Limonada",
+      "descripcion": "Limonada natural",
+      "categoria": "6aa6efbd86db5a346380ba22",
+      "precio": 7000,
+      "imagen": "limonada.jpg",
+      "disponibilidad": true,
+      "estado": true
+    }
+order: 2674464493417

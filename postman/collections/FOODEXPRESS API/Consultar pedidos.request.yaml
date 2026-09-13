@@ -1,0 +1,7 @@
+$kind: http-request
+description: ""
+url: |-
+  
+  http://localhost:3000/api/pedidos
+method: GET
+order: 4441856552875244

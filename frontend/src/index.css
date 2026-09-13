@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f6f8;
+  color: #222;
+}
+
+header {
+  background: #17365d;
+  color: white;
+  padding: 18px 24px;
+}
+
+header h1 {
+  margin: 0 0 12px;
+}
+
+nav {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+button {
+  cursor: pointer;
+  border: 0;
+  border-radius: 6px;
+  padding: 9px 12px;
+}
+
+nav button,
+.principal {
+  background: #2f75b5;
+  color: white;
+}
+
+main {
+  max-width: 1000px;
+  margin: 24px auto;
+  padding: 0 16px;
+}
+
+.buscador {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0 18px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 14px;
+}
+
+.card,
+.fila,
+.pedido {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 14px;
+  margin-bottom: 10px;
+}
+
+.fila {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.error {
+  color: #b00020;
+}
+
+select {
+  padding: 7px;
+}
+
+@media (max-width: 600px) {
+  header {
+    padding: 14px;
+  }
+
+  .fila {
+    align-items: flex-start;
+  }
+}

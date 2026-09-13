@@ -1,0 +1,28 @@
+$kind: http-request
+description: ""
+url: |-
+  
+  http://localhost:3000/api/clientes
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \  \"documento\": \"100001\",\r
+
+    \  \"tipoDocumento\": \"CC\",\r
+
+    \  \"nombre\": \"Ana\",\r
+
+    \  \"apellidos\": \"Gómez\",\r
+
+    \  \"correo\": \"ana@email.com\",\r
+
+    \  \"telefono\": \"3000000000\",\r
+
+    \  \"direccion\": \"Bogotá\",\r
+
+    \  \"password\": \"123456\"\r
+
+    }"
+order: 3207075456963525
